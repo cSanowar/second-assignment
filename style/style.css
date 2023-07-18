@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.nav-image-conainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-content ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-content ul li {
+    margin-right: 20px;
+}
+
+.nav-content ul a {
+    text-decoration: none;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.banner-section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner-section-heading {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.banner-section-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.button-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: none;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.secondary-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    padding: 21px 40px;
+    background: #4EC5F7;
+    border: none;
+}
+
+.banner-section-image {
+    width: 50%;
+}
+
+.banner-section-image img {
+    width: 100%;
+}
+
+.online-game-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.online-game-section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-game-section-decription {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+}
+
+.online-game-section-image {
+
+    border: 5px solid white;
+    box-shadow: 4px 5px solid gray;
+}
+
+.online-game-section-image img {
+    border-radius: 16px;
+    width: 100%;
+
+}
+
+.online-game-section-image p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.instantly-play-section{
+    display: flex;
+    width: 80%;
+    margin:120px auto 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+.instsntly-play-section-container{
+width: 50%;
+margin-top:-300px;
+  
+}
+.instantly-play-section-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: 24px;
+        }
+
+#play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.instantly-play-section-description{
+    color: #534C64;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+}
+
+.instantly-play-section-image .first-img{
+    width: 100%;
+      
+}
+.instantly-play-section-image  .second-image{
+   position: relative;
+    bottom:250px ;
+    right: 110px;
+    width: 280px;
+height: 350px;
+    border-radius: 5px;
+}
+.logo-section{
+    width: 80%;
+    margin: 0 auto;
+      
+
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 25px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo h5{
+    
+color: #0B0223;
+font-size: 16px;
+font-weight: 600;
+}
+.logo:hover{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: 2px solid #FF42A5;
+border-radius: 50px;
+cursor: pointer;
+}
